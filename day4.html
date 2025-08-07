@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>ฝึก dom</title>
+    </head>
+    <body>
+        <h1 id = "title">สวัสดี!</h1>
+        <button onclick="hideMessage()">ซ่อนข้อความ</button>
+                <button onclick="showMessage()">เแสดงข้อความ</button>
+<script>
+    function hideMessage(){
+        document.getElementById("title").style.display = "none";
+
+    }
+    function showMessage(){
+    document.getElementById ("title").style.display = "block";
+    document.getElementById ("title").style.color= "pink" ; 
+    }
+</script>
+    </body>
+</html>
